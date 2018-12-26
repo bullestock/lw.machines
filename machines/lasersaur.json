@@ -1,0 +1,75 @@
+{
+    "*Lasersaur": {
+        "machineLabel": "Lasersaur-GRBL",
+        "machineDescription": "Use this if you have a Lasersaur running grbl-LPC",
+        "settings": {
+            "machineWidth": 1220,
+            "machineHeight": 610,
+            "machineBeamDiameter": 0.3,
+            "machineZEnabled": false,
+            "machineZMatThickness": 0,
+            "machineZToolOffset": 0,
+            "machineBlowerEnabled": true,
+            "machineAEnabled": false,
+            "machineBlowerGcodeOn": "M44",
+            "machineBlowerGcodeOff": "M45",
+            "pxPerInch": 72,
+            "dpiBitmap": 300,
+            "toolSafetyLockDisabled": false,
+            "toolCncMode": false,
+            "toolImagePosition": "BL",
+            "toolUseNumpad": true,
+            "toolVideoDevice": null,
+            "toolVideoPerspective": {
+                "enabled": false,
+                "before": [
+                    170.66666666666666,
+                    384,
+                    682.6666666666666,
+                    384,
+                    682.6666666666666,
+                    96,
+                    170.66666666666666,
+                    96
+                ],
+                "after": [
+                    170.66666666666666,
+                    384,
+                    682.6666666666666,
+                    384,
+                    682.6666666666666,
+                    96,
+                    170.66666666666666,
+                    96
+                ]
+            },
+            "toolVideoLens": {
+                "a": 1,
+                "b": 1,
+                "F": 1,
+                "scale": 1
+            },
+            "toolVideoFov": {
+                "x": 1,
+                "y": 1
+            },
+            "toolVideoResolution": "720p(HD)",
+            "toolWebcamUrl": "",
+            "gcodeStart": "G21         ; Set units to mm\r\nG90         ; Absolute positioning\r\nM4 S0       ; Enable Laser/Spindle (0 power)\r\n",
+            "gcodeEnd": "M5          ; Disable Laser/Spindle\r\n",
+            "gcodeHoming": "$H",
+            "gcodeToolOn": "",
+            "gcodeToolOff": "",
+            "gcodeSMaxValue": 1000,
+            "connectVia": "USB",
+            "connectBaud": "115200",
+            "jogStepsize": 100,
+            "jogFeedXY": 500,
+            "jogFeedZ": 5,
+            "machineBottomLeftX": 0,
+            "machineBottomLeftY": 0,
+            "toolGridWidth": 800,
+            "toolGridHeight": 600
+        }
+    }
+}
