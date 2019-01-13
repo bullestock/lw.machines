@@ -6,6 +6,12 @@
             "machineWidth": 1220,
             "machineHeight": 610,
             "machineBeamDiameter": 0.3,
+            "machineFeedRange": {
+                "XY": {
+                    "min": 100,
+                    "max": 8000
+                }
+            },
             "machineZEnabled": false,
             "machineZMatThickness": 0,
             "machineZToolOffset": 0,
@@ -60,7 +66,9 @@
             "gcodeHoming": "$H",
             "gcodeToolOn": "",
             "gcodeToolOff": "",
-            "gcodeSMaxValue": 1000,
+            "gcodeSMaxValue": 1,
+            "gcodeCheckSizePower": 0,
+            "gcodeToolTestPower": 5,
             "connectVia": "USB",
             "connectBaud": "115200",
             "jogStepsize": 100,
