@@ -6,6 +6,12 @@
             "machineWidth": 1220,
             "machineHeight": 610,
             "machineBeamDiameter": 0.3,
+            "machineFeedRange": {
+                "XY": {
+                    "min": 100,
+                    "max": 5000
+                }
+            },
             "machineZEnabled": false,
             "machineZMatThickness": 0,
             "machineZToolOffset": 0,
