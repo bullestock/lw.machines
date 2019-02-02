@@ -67,6 +67,8 @@
             "gcodeToolOn": "",
             "gcodeToolOff": "",
             "gcodeSMaxValue": 1000,
+            "gcodeToolTestPower": 5,
+            "gcodeToolTestDuration": 100,
             "connectVia": "USB",
             "connectBaud": "115200",
             "jogStepsize": 100,
