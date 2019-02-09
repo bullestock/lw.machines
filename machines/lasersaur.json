@@ -61,7 +61,7 @@
             },
             "toolVideoResolution": "720p(HD)",
             "toolWebcamUrl": "",
-            "gcodeStart": "G21         ; Set units to mm\r\nG90         ; Absolute positioning\r\nM4 S0       ; Enable Laser/Spindle (0 power)\r\nM8          ; Fan on\r\nG4P5        ; Wait for fan\r\n",
+            "gcodeStart": "G21         ; Set units to mm\r\nG90         ; Absolute positioning\r\nM4 S0       ; Enable Laser/Spindle (0 power)\r\nM8          ; Fan on\r\nM7          ; Air assist on\r\nG4P5        ; Wait for fan\r\n",
             "gcodeEnd": "M5          ; Disable Laser/Spindle\r\n",
             "gcodeFanOff": "M9",
             "gcodeHoming": "$H",
