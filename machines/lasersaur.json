@@ -71,6 +71,7 @@
             "gcodeToolTestPower": 5,
             "gcodeToolTestDuration": 100,
             "connectVia": "USB",
+            "connectPort": "/dev/ttyACM0",
             "connectBaud": "115200",
             "jogStepsize": 100,
             "jogFeedXY": 500,
