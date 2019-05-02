@@ -75,7 +75,7 @@
             "jogFeedXY": 500,
             "jogFeedZ": 5,
             "machineBottomLeftX": 0,
-            "machineBottomLeftY": 0,
+            "machineBottomLeftY": -610,
             "toolGridWidth": 800,
             "toolGridHeight": 600
         }
