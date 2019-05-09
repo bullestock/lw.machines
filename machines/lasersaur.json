@@ -74,7 +74,7 @@
             "connectPort": "/dev/ttyACM0",
             "connectBaud": "115200",
             "jogStepsize": 100,
-            "jogFeedXY": 500,
+            "jogFeedXY": 2000,
             "jogFeedZ": 5,
             "machineBottomLeftX": 0,
             "machineBottomLeftY": -610,
