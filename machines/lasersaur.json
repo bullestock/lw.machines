@@ -67,7 +67,7 @@
             "gcodeHoming": "$H",
             "gcodeToolOn": "",
             "gcodeToolOff": "",
-            "gcodeSMaxValue": 1,
+            "gcodeSMaxValue": 1000,
             "gcodeCheckSizePower": 0,
             "gcodeToolTestPower": 10,
             "connectVia": "USB",
