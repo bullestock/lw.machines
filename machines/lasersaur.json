@@ -79,7 +79,8 @@
             "machineBottomLeftX": 0,
             "machineBottomLeftY": -610,
             "toolGridWidth": 1220,
-            "toolGridHeight": 610
+            "toolGridHeight": 610,
+            "showMachine": true
         }
     }
 }
