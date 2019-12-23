@@ -71,7 +71,7 @@
             "gcodeCheckSizePower": 0,
             "gcodeToolTestPower": 10,
             "connectVia": "USB",
-            "connectPort": "/dev/ttyACM0",
+            "connectPort": "/dev/ttyS0",
             "connectBaud": "115200",
             "jogStepsize": 100,
             "jogFeedXY": 2000,
